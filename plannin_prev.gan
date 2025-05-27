@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-05-27" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="resources"/>
+        <option id="taskLabelLeft" value="advancement"/>
+        <option id="taskLabelRight" value="length"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#00ff33 #ffccff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="15" uid="1c9c4c2613f946aa984a67ad2aa8d610" name="semaine 1" meeting="false" start="2025-05-26" duration="5" complete="11" expand="true">
+            <task id="6" uid="0fd2dca507164f9e8b9dbf84102a4982" name="requirement table" color="#00ff33" meeting="false" start="2025-05-26" duration="1" complete="100" priority="4" expand="true"/>
+            <task id="5" uid="d5c65954d16540118d377ce99cc3b11d" name="dimention estimation" color="#ffccff" meeting="false" start="2025-05-27" duration="4" complete="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" uid="d1b0844b2edd49ce8af8d5088f000ed4" name="skeleton" meeting="false" start="2025-05-27" duration="4" complete="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="16" uid="3dadf4acc45842c587c1653c67d3164d" name="semaine 2" meeting="false" start="2025-06-02" duration="5" complete="0" expand="true">
+            <task id="8" uid="1984f1c86a614d878e43b1e66a7fa666" name="rask ok or upgrade speaker or microphone" meeting="false" start="2025-06-02" duration="5" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="30069f6a488e486b84e7542c9c6ca314" name="dim chassis" color="#ffccff" meeting="false" start="2025-06-02" duration="5" complete="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="19" uid="59ec6eebd21b4a6b97b1913d2a6f2915" name="semaine 3" meeting="false" start="2025-06-09" duration="5" complete="0" expand="true">
+            <task id="9" uid="868011a9a59a44dcbd7c1c14cc0c9429" name="dim head" color="#ffccff" meeting="false" start="2025-06-09" duration="5" complete="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="b30e9baf62724e11bd64c2e87651f179" name="EPF database + bonuses" meeting="false" start="2025-06-09" duration="5" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="20" uid="d95002a05fae40d8bde35077957a7d10" name="semaine 4" meeting="false" start="2025-06-16" duration="4" complete="0" expand="true">
+            <task id="12" uid="ec768baaf0cf41c5ac29ee7e1bee0539" name="full fonction robot" meeting="false" start="2025-06-16" duration="4" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="e3cb232f424949dcb3f1de2e6e335e33" name="dim bonus" color="#ffccff" meeting="false" start="2025-06-16" duration="4" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="f17d40d26de245b695501eee430959d2" name="repport" meeting="false" start="2025-06-18" duration="1" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="13" uid="bc2b957d9acc4fe6834d6e5f6889b7e3" name="presentation" meeting="true" start="2025-06-20" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="jules" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="marie" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="sonja" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="samuel" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="célian" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="inès" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Tang" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Zhu Haoran" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="lee" function="Default:0" contacts="" phone=""/>
+        <resource id="9" name="Zhang" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
