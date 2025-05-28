@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-05-27" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-05-23" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="Nom" width="200" order="0"/>
         <field id="tpd4" name="Date de début" width="75" order="1"/>
         <field id="tpd5" name="Date de fin" width="75" order="2"/>
@@ -13,7 +13,7 @@
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <option id="color.recent"><![CDATA[#00ff33 #ffccff]]></option>
+        <option id="color.recent"><![CDATA[#ff66ff #ffff99 #3366ff #99ff00 #66ff00 #33ff00 #00ff33 #ffccff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="210" order="0"/>
@@ -59,6 +59,13 @@
             <task id="7" uid="30069f6a488e486b84e7542c9c6ca314" name="dim chassis" color="#ffccff" meeting="false" start="2025-06-02" duration="5" complete="0" expand="true">
                 <depend id="9" type="2" difference="0" hardness="Strong"/>
             </task>
+            <task id="22" uid="dc296662768a41f8bfc80ed393d482f8" name="created the pieces" color="#66ff00" meeting="false" start="2025-06-02" duration="2" complete="0" expand="true"/>
+            <task id="24" uid="d8ddb318d8b54b43b4465bf2f9ae3370" name="impression 3D pieces" color="#99ff00" meeting="false" start="2025-06-04" duration="3" complete="0" expand="true"/>
+            <task id="25" uid="6800165b53d34bd19a51c805c0f03119" name="wheels coding" color="#3366ff" meeting="false" start="2025-06-02" duration="2" complete="0" expand="true"/>
+            <task id="26" uid="309b00f71e1c4d6083009f1f4dd14f75" name="sonic censor coding" color="#3366ff" meeting="false" start="2025-06-05" duration="2" complete="0" expand="true"/>
+            <task id="31" uid="13f402bbfcce48f783fe06c4b8bfbb43" name="language model" color="#ff66ff" meeting="false" start="2025-06-02" duration="1" complete="0" expand="true"/>
+            <task id="33" uid="d38e032be9d7499ba140a4dd6ebf7cce" name="Hearing program" color="#ff66ff" meeting="false" start="2025-06-03" duration="2" complete="0" expand="true"/>
+            <task id="32" uid="9139ebe372ac4080ba55ca1b9e9e9dd0" name="Speaking ability" color="#ff66ff" meeting="false" start="2025-06-05" duration="2" complete="0" expand="true"/>
         </task>
         <task id="19" uid="59ec6eebd21b4a6b97b1913d2a6f2915" name="semaine 3" meeting="false" start="2025-06-09" duration="5" complete="0" expand="true">
             <task id="9" uid="868011a9a59a44dcbd7c1c14cc0c9429" name="dim head" color="#ffccff" meeting="false" start="2025-06-09" duration="5" complete="0" expand="true">
@@ -93,7 +100,9 @@
         <resource id="8" name="lee" function="Default:0" contacts="" phone=""/>
         <resource id="9" name="Zhang" function="Default:0" contacts="" phone=""/>
     </resources>
-    <allocations/>
+    <allocations>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
